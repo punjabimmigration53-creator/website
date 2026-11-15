@@ -1,0 +1,278 @@
+/* --- PAGE HERO --- */
+.page-hero {
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative; 
+    background: linear-gradient(135deg, #fab00d 0%, #fA900d 100%); 
+    color: white; 
+    padding: 100px 0 150px 0; 
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    margin-bottom: -15vh;
+}
+.page-hero h1 {
+    font-size: 3rem;
+    color: var(--white);
+}
+.page-hero h1 span {
+    color: var(--dark-blue); 
+}
+.page-hero p {
+    font-size: 1.1rem;
+    color: var(--white);
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+/* --- CONTACT SECTION LAYOUT --- */
+.contact-section {
+    padding-top: 20vh;
+    padding-bottom: 50px;
+}
+.contact-split-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--white);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    min-height: 600px;
+}
+
+.contact-info-side {
+    background: linear-gradient(180deg, var(--dark-blue) 0%, #0a2d9c 100%);
+    padding: 50px;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.contact-info-side::before {
+    content: '';
+    position: absolute;
+    top: -10%; left: -10%;
+    width: 120%; height: 120%;
+    background: url('https://www.transparenttextures.com/patterns/clean-textile.png'); 
+    opacity: 0.1;
+    z-index: 0;
+    pointer-events: none;
+}
+.contact-info-side h2 {
+    color: var(--white);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+.contact-info-side p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    opacity: 0.9;
+    margin-bottom: 40px;
+    max-width: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+/* CONTACT BUBBLES GRID STYLE */
+.contact-bubbles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 500px;
+}
+.contact-bubble {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+    color: var(--white);
+    text-decoration: none;
+    min-height: 120px;
+}
+.contact-bubble i {
+    font-size: 1.8rem;
+    color: var(--primary);
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.contact-bubble h5 {
+    color: var(--white);
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+.contact-bubble span {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    color: var(--white);
+    word-break: break-word;
+}
+.contact-bubble:hover {
+    transform: translateY(-8px) scale(1.02);
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.contact-bubble:hover i {
+    transform: translateY(-5px);
+    color: var(--white);
+}
+
+.contact-form-side {
+    background: var(--white);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.contact-form-side h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: var(--accent);
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 25px; 
+}
+.form-group.full-width {
+    grid-column: 1 / -1;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    background: var(--light);
+    transition: 0.3s;
+    color: var(--text);
+    box-sizing: border-box;
+}
+.form-group select {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23333333' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+     background-repeat: no-repeat;
+     background-position: right 15px center;
+     background-size: 15px;
+}
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+    padding-top: 25px;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--accent);
+    background: var(--white);
+    box-shadow: 0 0 0 3px rgba(6, 18, 46, 0.1);
+}
+
+.form-group label {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: #999;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    pointer-events: none;
+    background: transparent;
+    padding: 0 3px;
+    z-index: 5;
+}
+
+/* Floating label logic */
+.form-group.focused label,
+.form-group.has-value label {
+    top: -10px;
+    font-size: 0.75rem;
+    color: var(--accent);
+    background: var(--white);
+}
+
+#form-status-box {
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+#form-status-box.success {
+    background: #e6f7ec;
+    color: #008a38;
+    border: 1px solid #b8e6c9;
+}
+#form-status-box.error {
+    background: #fdecea;
+    color: #d93025;
+    border: 1px solid #f9c6c2;
+}
+
+/* --- MAP SECTION --- */
+.map-section {
+    padding: 50px 0 100px;
+    position: relative;
+    z-index: 1;
+    margin-top: 0; 
+}
+.map-container {
+    width: 100%;
+    height: 450px;
+    background: #eee;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 992px) {
+    .contact-split-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-padding { padding: 80px 0; }
+    .form-grid { grid-template-columns: 1fr; }
+    .map-container { border-radius: 20px; }
+}
+
+@media (max-width: 400px) {
+    .page-hero h1 { font-size: 2rem; }
+    .contact-info-side h2 { font-size: 2rem; }
+    .contact-form-side h2 { font-size: 2rem; }
+    .container { width: 92%; }
+}

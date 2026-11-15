@@ -1,0 +1,24 @@
+/* Shared FAQ accordion (used by the home page and visa detail pages) */
+/* ---------- FAQ ---------- */
+.pg-faqs { max-width: 860px; margin: 0 auto; display: grid; gap: 12px; }
+.pg-faq { border-radius: 20px; background: #fff; border: 1px solid var(--border-light); transition: border-color 0.3s, box-shadow 0.3s; }
+.pg-faq.open { border-color: rgba(250, 176, 13, 0.6); box-shadow: 0 20px 40px -30px rgba(6,18,46,0.4); }
+.pg-faq-q {
+  width: 100%; display: flex; gap: 16px; justify-content: space-between; align-items: center;
+  padding: 22px 24px; background: none; border: 0; text-align: left;
+  font: 600 1.02rem/1.4 var(--sans); color: var(--dark-blue);
+}
+.pg-faq-q i {
+  flex: none; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(6,18,46,0.06); transition: transform 0.4s cubic-bezier(.2,.9,.2,1.3), background 0.3s, color 0.3s;
+}
+.pg-faq.open .pg-faq-q i { transform: rotate(135deg); background: var(--primary); color: var(--dark-blue); }
+.pg-faq-a { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.45s cubic-bezier(.2,.8,.2,1); }
+.pg-faq.open .pg-faq-a { grid-template-rows: 1fr; }
+.pg-faq-a > div { overflow: hidden; }
+.pg-faq-a p { padding: 0 24px 22px; color: var(--text-muted); line-height: 1.75; }
+
+@media (max-width: 640px) {
+  .pg-faq-q { padding: 18px; font-size: 0.95rem; }
+  .pg-faq-a p { padding: 0 18px 18px; }
+}

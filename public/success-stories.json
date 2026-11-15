@@ -1,0 +1,84 @@
+{
+  "videos": [
+    {
+      "name": "Harpal Singh",
+      "visa": "UK Study Visa",
+      "src": "/harpal singh.mp4",
+      "poster": "/harpal.png"
+    },
+    {
+      "name": "Shubpreetpal Singh",
+      "visa": "UK study visa",
+      "src": "/shubpreet.mp4",
+      "poster": "/shubpreetpal.png"
+    },
+    {
+      "name": "Preet and her Husband",
+      "visa": "Spouse visa(UK)",
+      "src": "/reel1.mp4",
+      "poster": "/reel image.png"
+    }
+  ],
+  "gallery": [
+    {
+      "img": "/uk study visa 1.png",
+      "name": "Jagbir Singh",
+      "quote": "I can’t thank the Punjab Immigration team enough! They guided me through every step of my UK Ballot Visa process with full transparency and support."
+    },
+    {
+      "img": "/UK STUDY VISA - 2.png",
+      "name": "Shivraj Singh",
+      "quote": "I’m so happy to receive my UK Study Visa through Punjab Immigration. The staff were super helpful and guided me at every step!"
+    },
+    {
+      "img": "/UK STUDY VISA - 3.png",
+      "name": "Bhupinder Singh",
+      "quote": "Big thanks to Punjab Immigration for helping me get my UK Study Visa! The whole process was smooth and transparent. Highly recommend their team!"
+    },
+    {
+      "img": "/komalpreet kaur-happy-cust.jpg",
+      "name": "Komalpreet Kaur",
+      "quote": "Punjab Immigration made the entire UK Study Visa process simple and transparent. I always felt confident because the team guided me honestly at every step."
+    },
+    {
+      "img": "/UK STUDY VISA - 5.png",
+      "name": "Kulbir Kaur",
+      "quote": "I am so grateful to Punjab Immigration for helping me with my UK Study Visa. The team was very supportive and handled my file with complete transparency. Thank you for making my dream come true!"
+    },
+    {
+      "img": "/uk 6.webp",
+      "name": "Dawinder Preet Singh",
+      "quote": "A big thank you to Punjab Immigration! Their guidance was excellent throughout the entire process. If you are looking for a trustworthy team for your UK Study Visa, I highly recommend them."
+    },
+    {
+      "img": "/IM15.png",
+      "name": "Jasmine Kaur",
+      "quote": "I’m truly grateful to Punjab Immigration for guiding me at every step and helping me get my visa approved in just 5 days."
+    },
+    {
+      "img": "/im16.png",
+      "name": "Shubpreetpal Singh",
+      "quote": "I’m really thankful to Punjab Immigration for their clear support and guidance that helped me receive my visa in just 2 weeks."
+    },
+    {
+      "img": "/IM14.jpg",
+      "name": "Ravinder Singh",
+      "quote": "Best immigration consultants in Amritsar. They guide you properly according to your profile."
+    },
+    {
+      "img": "/IM12.jpg",
+      "name": "Gurnoor Singh",
+      "quote": "I am extremely thankful to the team at Punjab Immigration for their exceptional support in getting my UK Study Visa. Their guidance was clear, and the entire process was seamless. Highly recommended!"
+    },
+    {
+      "img": "/IM13.jpg",
+      "name": "Rajdeep Singh",
+      "quote": "Big thanks to Punjab Immigration for making my dream of studying in the UK a reality. Their team is very knowledgeable and provided transparent guidance at every step. I received my visa very quickly!"
+    },
+    {
+      "img": "/IM11.jpg",
+      "name": "Rajwinder Kaur",
+      "quote": "I had a wonderful experience with Punjab Immigration. They helped me navigate the complex UK Study Visa process with ease. Their staff is very helpful and professional. Thank you for everything!"
+    }
+  ]
+}

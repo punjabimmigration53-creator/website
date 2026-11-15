@@ -1,0 +1,110 @@
+{
+  "study-visa": {
+    "layout": "timeline-benefits",
+    "title": "Study Visa",
+    "heroTitle": "Study",
+    "heroSpan": "Visa",
+    "heroDesc": "Your First Step Towards a Global Education.",
+    "timelineTitle": "The 4-Step Study Visa Process",
+    "timelineItems": [
+      { "title": "1. Counselling", "desc": "We assess your academic profile and help you choose the right course and country that aligns with your career goals." },
+      { "title": "2. Offer Letter", "desc": "We manage your university applications to secure your admission (CAS/LOA) from the best institutions." },
+      { "title": "3. Documentation", "desc": "Expert guidance on funding, GICs, medicals, and writing a strong Statement of Purpose (SOP)." },
+      { "title": "4. Visa & Departure", "desc": "We handle the final visa lodging and provide comprehensive pre-departure briefings to prepare you." }
+    ],
+    "benefitsTitle": "WHY STUDY ABROAD?",
+    "benefitsSubtitle": "Invest in Your Future",
+    "benefits": [
+      { "icon": "fa-solid fa-university", "title": "Top Universities", "backTitle": "World-Class Education", "backDesc": "Gain access to globally-recognized universities and colleges, setting you apart in the job market." },
+      { "icon": "fa-solid fa-briefcase", "title": "Post-Study Work", "backTitle": "Valuable Experience", "backDesc": "Most countries offer post-study work permits (like PGWP or Graduate Route) to help you gain valuable international experience." },
+      { "icon": "fa-solid fa-globe", "title": "Global Career", "backTitle": "A New Perspective", "backDesc": "An international degree and new cultural understanding opens doors to opportunities all over the world." }
+    ]
+  },
+  "work-visa": {
+    "layout": "types-checklist-bento",
+    "title": "Work Visa",
+    "heroTitle": "Work Visa",
+    "heroSpan": "Services",
+    "heroDesc": "Unlock Your Global Career Opportunities.",
+    "typesTitle": "TYPES OF WORK VISAS",
+    "typesSubtitle": "Find Your Pathway",
+    "typesImage": "/work-pg.png",
+    "typesItems": [
+      { "icon": "fa-solid fa-briefcase", "title": "Skilled Worker Visa", "desc": "For those with a job offer from an approved employer (LMIA, TSS, etc.)." },
+      { "icon": "fa-solid fa-users", "title": "Spousal Open Permit", "desc": "Allows spouses of students or workers to work for any employer." },
+      { "icon": "fa-solid fa-graduation-cap", "title": "Post-Study Work", "desc": "For recent graduates (PGWP, Graduate Route) to gain experience." }
+    ],
+    "checklistTitle": "Do You Qualify?",
+    "checklistSubtitle": "ELIGIBILITY",
+    "checklistItems": [
+      "Valid Job Offer from an approved employer (for most streams).",
+      "Proof of relevant work experience and qualifications.",
+      "Language proficiency test (IELTS, CELPIP, etc.)",
+      "Proof of funds to support yourself upon arrival."
+    ],
+    "bentoTitle": "HIGH DEMAND SECTORS",
+    "bentoSubtitle": "Your Skills Are Needed",
+    "bentoDesc": "Many countries are actively seeking skilled professionals to fill labor shortages. Our team specializes in matching your qualifications with the right visa program in high-demand sectors. Whether you're in tech, healthcare, or skilled trades, we can help find your opportunity."
+  },
+  "pr-visa": {
+    "layout": "why-timeline-faq",
+    "title": "PR Visa",
+    "heroTitle": "Permanent",
+    "heroSpan": "Residency",
+    "heroDesc": "Your Pathway to a New Life and Secure Future.",
+    "whyTitle": "WHY SEEK PR?",
+    "whySubtitle": "Build Your New Home",
+    "whyDesc1": "Permanent Residency is more than just a visa; it's your key to a secure future. It grants you the freedom to live, work, and study indefinitely in your new country, along with access to social benefits like healthcare and education for your family.",
+    "whyDesc2": "Our experts specialize in navigating the complex points systems and application streams to maximize your chances of success.",
+    "whyCards": [
+      { "icon": "fa-solid fa-shield-halved", "title": "Live & Work Freely", "desc": "Work for any employer, in any city, and enjoy social security benefits." },
+      { "icon": "fa-solid fa-heart-pulse", "title": "Access to Healthcare", "desc": "Gain access to world-class public healthcare systems for you and your family." },
+      { "icon": "fa-solid fa-user-graduate", "title": "Affordable Education", "desc": "Your children can attend public schools for free, and you pay domestic university fees." }
+    ],
+    "timelineTitle": "Your Pathway to PR",
+    "timelineItems": [
+      { "title": "1. Profile Assessment", "desc": "We analyze your age, education, experience, and language skills to calculate your points (e.g., CRS score)." },
+      { "title": "2. Enter the Pool", "desc": "We create your official profile (e.g., Express Entry, EOI) and submit it to the government pool." },
+      { "title": "3. Invitation to Apply (ITA)", "desc": "Once your score is high enough, you'll receive an official Invitation to Apply for Permanent Residency." },
+      { "title": "4. Final Application", "desc": "We meticulously prepare and submit your final, detailed application and all supporting documents." }
+    ],
+    "faqTitle": "Frequently Asked Questions",
+    "faqSubtitle": "HAVE QUESTIONS?",
+    "faqs": [
+      { "q": "What is the \"Points System\" (CRS)?", "a": "The Comprehensive Ranking System (CRS) is used by Canada to rank Express Entry candidates. You get points for your age, education, work experience, and language skills. We help you find every possible way to maximize your score." },
+      { "q": "What is PNP (Provincial Nominee Program)?", "a": "PNP allows Canadian provinces to nominate individuals who wish to immigrate to their province and who have the skills to contribute to their economy. Getting a PNP nomination adds 600 points to your Express Entry CRS score, virtually guaranteeing an invitation." },
+      { "q": "Can I bring my family?", "a": "Yes! Most Permanent Residency programs allow you to include your spouse and dependent children (under 22) in your application. They will receive the same PR status as you." }
+    ]
+  },
+  "visitor-visa": {
+    "layout": "types-checklist-faq",
+    "title": "Visitor Visa",
+    "heroTitle": "Visitor Visa",
+    "heroSpan": "Services",
+    "heroDesc": "Explore the World or Visit Family with Confidence.",
+    "typesTitle": "TYPES OF VISITOR VISAS",
+    "typesSubtitle": "Explore Your Purpose",
+    "typesImage": "/tourist.png",
+    "typesItems": [
+      { "icon": "fa-solid fa-umbrella-beach", "title": "Tourist Visa", "desc": "For individuals wishing to travel for leisure, recreation, or sightseeing." },
+      { "icon": "fa-solid fa-users", "title": "Family Visit Visa", "desc": "For visiting family members (parents, children, relatives) living abroad." },
+      { "icon": "fa-solid fa-handshake", "title": "Business Visitor Visa", "desc": "For attending business meetings, conferences, or exploring ventures." }
+    ],
+    "checklistTitle": "What You Need to Show",
+    "checklistSubtitle": "KEY REQUIREMENTS",
+    "checklistItems": [
+      "Valid Passport with sufficient validity.",
+      "Proof of sufficient funds to cover your trip.",
+      "Strong ties to your home country (job, family, property).",
+      "A clear travel itinerary and purpose of visit.",
+      "Invitation letter (if visiting family or for business)."
+    ],
+    "faqTitle": "Frequently Asked Questions",
+    "faqSubtitle": "HAVE QUESTIONS?",
+    "faqs": [
+      { "q": "How much money do I need in my bank account?", "a": "There is no exact amount. You must demonstrate that you have enough funds to comfortably cover your flights, accommodation, and daily expenses for the entire duration of your trip without needing to work." },
+      { "q": "What are \"strong ties\" to my home country?", "a": "Ties are aspects of your life that bind you to your home country. This includes a stable job, property ownership, business assets, or immediate family members you must return to. Satisfying this is crucial for visa approval." },
+      { "q": "How long can I stay on a visitor visa?", "a": "Most visitor visas allow a maximum stay of 6 months per entry. The exact duration will be decided by the border services officer upon arrival." }
+    ]
+  }
+}

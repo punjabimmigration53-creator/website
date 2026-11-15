@@ -1,0 +1,5 @@
+/* Renders structured data for search engines. */
+export default function JsonLd({ data }) {
+  const json = JSON.stringify(data).split('<').join('\\u003c');
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: json }} />;
+}

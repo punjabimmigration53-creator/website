@@ -1,0 +1,214 @@
+{
+  "canada": {
+    "title": "Canada",
+    "heroTitle": "Destination: Canada",
+    "heroDesc": "Your Gateway to Study, Work, and Settle.",
+    "whyTitle": "WHY CHOOSE CANADA?",
+    "whySubtitle": "The Land of Opportunity",
+    "whyDesc1": "Canada is consistently ranked as one of the best countries in the world for quality of life. It offers a safe, multicultural, and welcoming environment for immigrants from all over the globe.",
+    "whyDesc2": "With a world-class education system, a strong, growing economy, and clear pathways to permanent residency, Canada presents an unparalleled opportunity for your future.",
+    "whyCards": [
+      {
+        "icon": "fa-solid fa-university",
+        "title": "Top Universities",
+        "desc": "Home to globally-recognized institutions and post-graduate work permits."
+      },
+      {
+        "icon": "fa-solid fa-briefcase",
+        "title": "Strong Economy",
+        "desc": "High demand for skilled workers in tech, healthcare, and trades."
+      },
+      {
+        "icon": "fa-solid fa-users",
+        "title": "Welcoming Culture",
+        "desc": "A diverse, multicultural society that welcomes immigrants."
+      }
+    ],
+    "pathwaysTitle": "Pathways to Canada",
+    "pathways": [
+      {
+        "number": "01",
+        "icon": "fa-solid fa-graduation-cap",
+        "title": "Study Visa (SDS)",
+        "desc": "The Student Direct Stream (SDS) offers a streamlined process for students from select countries to get a study permit faster for designated learning institutions."
+      },
+      {
+        "number": "02",
+        "icon": "fa-solid fa-briefcase",
+        "title": "Work Permits",
+        "desc": "From LMIA-based closed work permits to Spousal Open Work Permits (SOWP), we navigate the complexities of working legally in Canada."
+      },
+      {
+        "number": "03",
+        "icon": "fa-solid fa-passport",
+        "title": "Express Entry (PR)",
+        "desc": "The gold standard for skilled workers. We help maximize your CRS score for Federal Skilled Worker (FSW) and Canadian Experience Class (CEC)."
+      },
+      {
+        "number": "04",
+        "icon": "fa-solid fa-plane",
+        "title": "Visitor Visa",
+        "desc": "Whether for tourism or visiting family, we ensure your application demonstrates strong ties to your home country for a successful approval."
+      }
+    ]
+  },
+  "uk": {
+    "title": "United Kingdom",
+    "heroTitle": "Destination: United Kingdom",
+    "heroDesc": "Home of History, Culture, and World-Class Education.",
+    "whyTitle": "WHY CHOOSE THE UK?",
+    "whySubtitle": "A Tradition of Excellence",
+    "whyDesc1": "The United Kingdom offers a unique blend of rich history and modern innovation. Its universities are legendary, and its cities are global hubs for finance, tech, and the creative arts.",
+    "whyDesc2": "With the new Graduate Route visa, international students can now stay and work (or look for work) for up to two years after completing their degree, making it one of the most attractive destinations today.",
+    "whyCards": [
+      {
+        "icon": "fa-solid fa-landmark",
+        "title": "World-Class Education",
+        "desc": "Study at prestigious universities like Oxford, Cambridge, and LSE."
+      },
+      {
+        "icon": "fa-solid fa-briefcase",
+        "title": "Graduate Route (PSW)",
+        "desc": "Stay and work in the UK for 2 years post-graduation (3 years for PhD)."
+      },
+      {
+        "icon": "fa-solid fa-globe",
+        "title": "Historic Culture",
+        "desc": "Live and work in a country with a rich, globally-influential history."
+      }
+    ],
+    "pathwaysTitle": "Pathways to the UK",
+    "pathways": [
+      {
+        "number": "01",
+        "icon": "fa-solid fa-graduation-cap",
+        "title": "Student Visa",
+        "desc": "Obtain a Student Visa to pursue degrees at UK Higher Education institutions. Covers pre-sessional courses and pathway options."
+      },
+      {
+        "number": "02",
+        "icon": "fa-solid fa-user-graduate",
+        "title": "Graduate Visa (PSW)",
+        "desc": "Stay in the UK and work, or look for work, for 2 years after graduating from a recognized UK degree program."
+      },
+      {
+        "number": "03",
+        "icon": "fa-solid fa-briefcase",
+        "title": "Skilled Worker Visa",
+        "desc": "Allows you to come to or stay in the UK to do an eligible job with an approved sponsor."
+      },
+      {
+        "number": "04",
+        "icon": "fa-solid fa-plane",
+        "title": "Visitor Visa",
+        "desc": "For tourism, business meetings, or visiting family, with high success rates from our experienced guidance."
+      }
+    ]
+  },
+  "australia": {
+    "title": "Australia",
+    "heroTitle": "Destination: Australia",
+    "heroDesc": "Explore Academic Excellence and High Quality of Life Down Under.",
+    "whyTitle": "WHY CHOOSE AUSTRALIA?",
+    "whySubtitle": "Vibrant Cities and Strong Economy",
+    "whyDesc1": "Australia boasts some of the world's most liveable cities, a robust economy, and world-class universities. It offers students and skilled workers a balanced lifestyle and rich opportunities.",
+    "whyDesc2": "The post-study work visa program in Australia provides a direct route for graduates to build international careers in fields ranging from engineering to skilled trades.",
+    "whyCards": [
+      {
+        "icon": "fa-solid fa-sun",
+        "title": "Great Lifestyle",
+        "desc": "Beautiful climate, friendly communities, and a high standard of living."
+      },
+      {
+        "icon": "fa-solid fa-briefcase",
+        "title": "High Wages",
+        "desc": "Strong minimum wage laws and exceptional earning potential for professionals."
+      },
+      {
+        "icon": "fa-solid fa-graduation-cap",
+        "title": "Top Universities",
+        "desc": "Study at top-tier Group of Eight institutions with global rankings."
+      }
+    ],
+    "pathwaysTitle": "Pathways to Australia",
+    "pathways": [
+      {
+        "number": "01",
+        "icon": "fa-solid fa-graduation-cap",
+        "title": "Student Visa (Subclass 500)",
+        "desc": "Enables international students to study full-time in registered courses, with pathway options to post-study work."
+      },
+      {
+        "number": "02",
+        "icon": "fa-solid fa-user-graduate",
+        "title": "Temporary Graduate (Subclass 485)",
+        "desc": "Allows international graduates to live, study, and work in Australia temporarily after completing their studies."
+      },
+      {
+        "number": "03",
+        "icon": "fa-solid fa-passport",
+        "title": "Skilled Migration (PR)",
+        "desc": "Pathways like Subclass 189 and 190 based on a points system for skilled professionals and trades."
+      },
+      {
+        "number": "04",
+        "icon": "fa-solid fa-plane",
+        "title": "Visitor Visa (Subclass 600)",
+        "desc": "Streamlined processing for tourist, business visitor, and family visits with highly customized SOPs."
+      }
+    ]
+  },
+  "us": {
+    "title": "USA",
+    "heroTitle": "Destination: USA",
+    "heroDesc": "The Land of Opportunity Awaits You.",
+    "whyTitle": "WHY CHOOSE THE USA?",
+    "whySubtitle": "Global Leader in Innovation",
+    "whyDesc1": "The United States is home to many of the world's top-ranked universities and leading technology companies. It offers unparalleled opportunities for academic growth, research, and career advancement.",
+    "whyDesc2": "Whether you're looking to pursue a degree at an Ivy League school or gain international work experience through OPT, the US remains the most sought-after destination for ambitious students and professionals.",
+    "whyCards": [
+      {
+        "icon": "fa-solid fa-graduation-cap",
+        "title": "Academic Excellence",
+        "desc": "Access to cutting-edge research facilities and world-renowned faculty."
+      },
+      {
+        "icon": "fa-solid fa-microchip",
+        "title": "Innovation Hub",
+        "desc": "Be at the center of technological advancements and entrepreneurial spirit."
+      },
+      {
+        "icon": "fa-solid fa-globe",
+        "title": "Cultural Diversity",
+        "desc": "Experience a melting pot of cultures and broaden your global perspective."
+      }
+    ],
+    "pathwaysTitle": "Pathways to the USA",
+    "pathways": [
+      {
+        "number": "01",
+        "icon": "fa-solid fa-university",
+        "title": "Student Visa (F-1)",
+        "desc": "For academic studies at an accredited US college, university, or language program. Includes potential for Optional Practical Training (OPT)."
+      },
+      {
+        "number": "02",
+        "icon": "fa-solid fa-user-graduate",
+        "title": "Exchange Visitor (J-1)",
+        "desc": "For individuals participating in work-and-study-based exchange visitor programs approved by the US Department of State."
+      },
+      {
+        "number": "03",
+        "icon": "fa-solid fa-briefcase",
+        "title": "Work Visas (H-1B)",
+        "desc": "For specialty occupations requiring theoretical or technical expertise, sponsored by US employers."
+      },
+      {
+        "number": "04",
+        "icon": "fa-solid fa-plane",
+        "title": "Visitor Visa (B-1/B-2)",
+        "desc": "For business, pleasure, or medical treatment, ensuring a thorough case profile for approval."
+      }
+    ]
+  }
+}
