@@ -29,11 +29,7 @@ export const metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION, images: [OG_IMAGE] },
   robots: { index: true, follow: true },
   icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/icon.png', type: 'image/png' },
-    ],
-    apple: '/apple-icon.png',
+    icon: "/logowhite.png",
   },
 };
 

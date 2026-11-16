@@ -25,9 +25,9 @@ const VALUES = [
 // To add a photo: put a 4:5 image in public/team/ and set img: '/team/file.webp'.
 // To add a role: fill in role. Cards without a photo show the person's initials.
 const TEAM = [
-  { name: 'Manpreet Singh Sidhu', role: 'Managing Director', img: '' },
+  { name: 'Manpreet Singh Sidhu', role: 'Managing Director', img: '/team/manpreet-singh-sidhu.webp' },
   { name: 'Randeep Singh', role: '', img: '' },
-  { name: 'Rupinder Kaur', role: '', img: '' },
+  { name: 'Rupinder Kaur', role: '', img: '/team/rupinder-kaur.webp' },
 ];
 
 const initials = (name) =>
