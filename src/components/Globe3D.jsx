@@ -166,13 +166,13 @@ export default function Globe3D({ className = '' }) {
       ctx.globalAlpha = e;
 
       // halo
-      const halo = ctx.createRadialGradient(w / 2, h / 2, r * 0.9, w / 2, h / 2, r * 1.32);
+      const halo = ctx.createRadialGradient(w / 2, h / 2, r * 0.9, w / 2, h / 2, r * 1.2); // stays inside the canvas
       halo.addColorStop(0, 'rgba(90,140,255,0.22)');
       halo.addColorStop(0.4, 'rgba(250,176,13,0.07)');
       halo.addColorStop(1, 'rgba(250,176,13,0)');
       ctx.fillStyle = halo;
       ctx.beginPath();
-      ctx.arc(w / 2, h / 2, r * 1.32, 0, Math.PI * 2);
+      ctx.arc(w / 2, h / 2, r * 1.2, 0, Math.PI * 2);
       ctx.fill();
 
       // ocean sphere
