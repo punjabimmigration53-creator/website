@@ -18,10 +18,10 @@ const SERVICES = [
 ];
 
 const DESTS = [
-  { href: '/destinations/canada', title: 'Canada', tag: 'Top choice for PR & study', img: '/img/dest-canada.webp' },
-  { href: '/destinations/uk', title: 'United Kingdom', tag: 'Work & education hub', img: '/img/dest-uk.webp' },
-  { href: '/destinations/australia', title: 'Australia', tag: 'Skilled migration & lifestyle', img: '/img/dest-australia.webp' },
-  { href: '/destinations/us', title: 'USA', tag: 'Land of opportunity', img: '/img/dest-us.webp' },
+  { href: '/destinations/canada', title: 'Canada', tag: 'Top choice for PR & study', img: '/img/vs-canada.webp' },
+  { href: '/destinations/uk', title: 'United Kingdom', tag: 'Work & education hub', img: '/img/vs-uk.webp' },
+  { href: '/destinations/australia', title: 'Australia', tag: 'Skilled migration & lifestyle', img: '/img/vs-australia.webp' },
+  { href: '/destinations/us', title: 'USA', tag: 'Land of opportunity', img: '/img/vs-us.webp' },
 ];
 
 function PhotoCard({ c, i }) {

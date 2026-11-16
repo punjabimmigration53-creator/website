@@ -22,11 +22,16 @@ const VALUES = [
   { icon: 'fa-solid fa-rocket', title: 'End-to-end support', text: 'From the first counselling session in Amritsar to your airport pickup in Toronto or London, we are with you at every step.' },
 ];
 
+// To add a photo: put a 4:5 image in public/team/ and set img: '/team/file.webp'.
+// To add a role: fill in role. Cards without a photo show the person's initials.
 const TEAM = [
-  { name: 'Aman Singh', role: 'Founder & CEO', img: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop' },
-  { name: 'Priya Kaur', role: 'Managing Director', img: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop' },
-  { name: 'Rajeev Sharma', role: 'Senior Consultant', img: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop' },
+  { name: 'Manpreet Singh Sidhu', role: 'Managing Director', img: '' },
+  { name: 'Randeep Singh', role: '', img: '' },
+  { name: 'Rupinder Kaur', role: '', img: '' },
 ];
+
+const initials = (name) =>
+  name.split(' ').filter(Boolean).map((p) => p[0]).slice(0, 2).join('').toUpperCase();
 
 export default function About() {
   return (
@@ -45,7 +50,7 @@ export default function About() {
 
       <section className="lp-section" style={{ paddingTop: 0 }}>
         <div className="container pg-split">
-          <img className="pg-photo pg-fade" src="/img/office-client.webp" alt="A Punjab Immigration consultant with a client at the Amritsar office" loading="lazy" data-reveal />
+          <img className="pg-photo pg-fade" src="/img/about-global.webp" alt="A student looking out at a world map over international city skylines" loading="lazy" data-reveal />
           <div className="pg-prose" data-reveal style={{ '--d': '80ms' }}>
             <div className="lp-head">
               <p className="lp-eyebrow">Our roots</p>
@@ -94,10 +99,14 @@ export default function About() {
           <div className="pg-grid c3">
             {TEAM.map((m, i) => (
               <figure className="pg-team" key={m.name} data-reveal style={{ '--d': `${i * 70}ms` }}>
-                <img src={m.img} alt={m.name} loading="lazy" />
+                {m.img ? (
+                  <img src={m.img} alt={m.name} loading="lazy" />
+                ) : (
+                  <div className="pg-team-mono" aria-hidden="true"><span>{initials(m.name)}</span></div>
+                )}
                 <figcaption>
                   <b>{m.name}</b>
-                  <span>{m.role}</span>
+                  {m.role && <span>{m.role}</span>}
                 </figcaption>
               </figure>
             ))}

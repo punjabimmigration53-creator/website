@@ -24,7 +24,7 @@ const SPOTS = [
     points: ['CAIPS / GCMS note analysis', 'Stronger SOP drafting', 'Error correction & re-filing'],
   },
   {
-    badge: 'Profile assessment', title: 'Bridging the gap', img: '/img/office-client.webp', cta: 'Get assessed',
+    badge: 'Profile assessment', title: 'Bridging the gap', img: '/img/consult.webp', cta: 'Get assessed',
     text: 'Study gaps or career breaks can be major hurdles. We help you justify them with proper documentation, experience letters and explanation letters that satisfy visa officers.',
     points: ['Study gap justification', 'Career progression planning', 'Financial documentation review'],
   },

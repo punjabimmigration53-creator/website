@@ -24,11 +24,12 @@ export async function generateMetadata({ params }) {
   });
 }
 
+// hero backgrounds are deliberately different from the photo used further down the page
 const HERO_IMG = {
-  'study-visa': '/img/svc-study.webp',
-  'work-visa': '/img/svc-work.webp',
-  'pr-visa': '/img/svc-pr.webp',
-  'visitor-visa': '/img/svc-visitor.webp',
+  'study-visa': '/img/hero-study.webp',
+  'work-visa': '/img/hero-work.webp',
+  'pr-visa': '/img/hero-pr.webp',
+  'visitor-visa': '/img/hero-visitor.webp',
 };
 const TALL = {
   'study-visa': '/img/tall-study.webp',
